@@ -79,6 +79,9 @@ The application's settings can be found in the application.properties file. Make
 spring:
   application:
     name: recipes
+  redis:
+    host: localhost
+    port: 6379
 ```
 
 # Contributing
